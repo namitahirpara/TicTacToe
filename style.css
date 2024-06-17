@@ -30,6 +30,7 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0, 0.1);
     font-size: 8vmin;
+    background-color: white;
 
 }
 #reset-btn{
@@ -41,4 +42,22 @@ body{
     border: none;
 
 
+}
+#new-btn{
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: #191919;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: white;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
 }
